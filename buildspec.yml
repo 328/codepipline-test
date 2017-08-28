@@ -1,10 +1,6 @@
 version: 0.2
 
 phases:
-  install:
-    commands:
-      - apt-get update -y
-      - apt-get upgrade -y
   pre_build:
     commands:
       - echo Logging in to Amazon ECR...
